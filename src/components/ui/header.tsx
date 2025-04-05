@@ -1,0 +1,26 @@
+import Image from "next/image";
+
+export const Header = () => {
+    return(
+        <header className="w-full flex justify-center items-center">
+            <div className="max-w-[1280px] p-2 w-full flex justify-between items-center">
+                <Image 
+                    src={"/assets/uno-logo.png"}
+                    alt=""
+                    width={130}
+                    height={130}
+                />
+                <div className="hidden lg:flex items-center gap-9">
+                    <ul className="flex gap-7 text-white text-md">
+                        <li>Inicio</li>
+                        <li>Onde Encontrar</li>
+                        <li>Novos Produtos</li>
+                        <li>Créditos</li>
+                    </ul>
+                    <button className="w-30 h-11 border-2 border-white text-white rounded-xl cursor-pointer hover:bg-red-500 hover:text-white transition-all duration-300 hover:border-red-500 hover:shadow-[0_0_15px_5px_rgba(239,68,68,0.7)]">Entrar</button>
+                    <p className="text-white hover:text-red-500 cursor-pointer transition-all duration-300">Cadastre-se</p>
+                </div>
+            </div>
+        </header>
+    );
+}
