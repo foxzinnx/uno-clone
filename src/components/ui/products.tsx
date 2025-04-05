@@ -14,7 +14,7 @@ export const Products = () => {
                     </div>
                 </div>
 
-                <div className="mt-10 grid grid-cols-1 lg:grid-cols-4 w-full gap-10">
+                <div className="mt-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-full gap-10">
 
                     <div className="flex flex-col items-center justify-center">
                         <div>
