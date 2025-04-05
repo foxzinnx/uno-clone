@@ -18,7 +18,7 @@ export const Hero = () => {
 
                 <div>
                     <Image 
-                        src={"/assets/caixa.png"}
+                        src={"/assets/Caixa.png"}
                         alt=""
                         width={410}
                         height={400}
