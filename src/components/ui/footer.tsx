@@ -19,7 +19,7 @@ export const Footer = () => {
                         <p className="text-white pt-8 text-center lg:text-start md:pt-0">Inscreva-se para saber de novidades do mundo UNO.</p>
                         <div className="w-[20rem] lg:w-[27rem] h-15 rounded-xl flex items-center bg-[#282828]">
                             <input type="email" placeholder="Insira seu email" className="w-full px-4 outline-none placeholder:text-[#8b8b8b] text-[#e2e2e2]" />
-                            <button className="bg-[#ed1c24] w-1/2 rounded-2xl text-white font-medium h-full">Cadastrar</button>
+                            <button className="bg-[#ed1c24] w-1/2 rounded-2xl cursor-pointer text-white font-medium h-full">Cadastrar</button>
                         </div>
                     </div>
                 </div>
